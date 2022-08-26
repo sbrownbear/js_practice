@@ -49,7 +49,7 @@ printSmile('@', 34)
 // В консоли: 
 // Слово (word) состоит из  (число) гласных и (число) согласных букв
 
-function getWordStructure(str = "gfmfgmghmyguuyyg") {
+function getWordStructure(str) {
     str = str.toLowerCase();
     let vowels = "aeiouy";
     let consonants = "bdmnmymygmgtygrrhrhgvwqu";
